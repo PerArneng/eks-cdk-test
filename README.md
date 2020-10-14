@@ -17,3 +17,4 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  https://github.com/moofish32/cdk-eks-example
  https://github.com/TysonWorks/cdk-examples/tree/master/eks-cluster
  https://cdk-eks-devops.workshop.aws/en
+ Bug https://github.com/aws/aws-cdk/issues/9027
