@@ -18,7 +18,7 @@ export class EksCdkTestStack extends cdk.Stack {
       defaultCapacity: 1,
       mastersRole: clusterAdmin,
       clusterName: `TestEksCluster`,
-      defaultCapacityInstance: new ec2.InstanceType("t2.nano")
+      defaultCapacityInstance: new ec2.InstanceType("t3.nano")
     }
 
     const cluster = new eks.Cluster(this, 'eks-test-cluster', clusterProps);
